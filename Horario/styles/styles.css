@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Pixelify+Sans&family=Tilt+Neon&display=swap');
+*{
+    font-family:cursive;
+    font-size:18px;
+}
+table,td,th{
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 32px;
+}
+.fol{
+    background-image: url("../img/Fol.jpeg");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+table{
+    margin:auto
+}
+.dias{
+    background-color: #0EF7FF;
+    font-family: 'Pixelify Sans', sans-serif;;
+    color: #141115;
+}
+.horas{
+    background-color: #1BF902;
+    font-family: 'Lora', serif;;
+}
+.dam{
+    background-color: #02F9AA;
+    font-family: 'Tilt Neon', sans-serif;;
+}
+.recreo{
+    background-color: #C302F9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#02D8F9;
+    font-size: 25px;
+}
+.entornodesarrollo{
+    background-image: url("../img/Entorno.jpeg");
+    font-family: 'Times New Roman', Times, serif;
+    color: #F40A0A;
+}
+.programacion{
+    background-image: url("../img/Programacion.jpeg");
+    font-family: fantasy;
+    color: #0EF7FF;
+}
+.basedatos{
+    background-image: url("../img/Basedatos.jpeg");
+    font-family: monospace;
+    color: #FC1B1B;
+}
+.marcas{
+    background-image: url("../img/Marcas.jpeg");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0227F9;
+}
+.sistemas{
+    background-image: url("../img/Sistemas.jpeg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lime;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');

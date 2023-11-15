@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lora:ital@1&family=Pixelify+Sans&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="uno" id="primero">
+        <div class="enlaces">
+            <nav id="primero">
+                <a href="#primero">Inicio</a>
+            </nav>
+
+            <nav>
+                <a href="#segundo">Datos personales</a>
+            </nav>
+
+            <nav>
+                <a href="#tercero">Tus aficiones</a>
+            </nav>
+        </div>
+        <div class="inicio">
+            <h1>Alejandro Laredo</h1>
+            <h2>¿Quién soy?</h2>
+            <h3>Soy un estudiante de grado superior de desarrollo de aplicaciones multiplataforma (DAM) con aspiraciones
+                a tener un gran futuro laboral con la esperanza de poder trabajar en una muy buena empresa programando
+                lo que se necesite y aportando todo lo necesario.
+            </h3>
+            <h3>¿Qué hay sobre tí?. A la izquierda tienes un navegador con dos formularios en los que puedes poner tus datos
+                y aficiones para conocerte mejor.
+            </h3>
+            <h2>Formulario de datos personales</h2>
+            <h3>En el primer formulario deberás poner tu nombre, apellido, número, correo, género y situación laboral. Asegúrate
+                de introducir los datos correctos.
+            </h3>
+            <h2>Formulario de aficiones</h2>
+            <h3>En el último formulario deberás introducir cuáles son tus gustos y aficiones, además de hacer alguna sugerencia.
+                ¡Muchas gracias por visitar mi página!.
+            </h3>
+
+
+        </div>
+    </div>
+    <div class="dos" id="segundo">
+        <div class="enlaces2">
+            <nav id="segundo">
+                <a href="#primero">Inicio</a>
+            </nav>
+
+            <nav>
+                <a href="#segundo">Datos personales</a>
+            </nav>
+
+            <nav>
+                <a href="#tercero">Tus aficiones</a>
+            </nav>
+        </div>
+        <div class="formulario1">
+            <form action="/action_page.php">
+                <nav><h1>Datos personales</h1></nav>
+                <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required pattern="[A-ZÁÉÍÓÚa-záéíóú ]+">
+                </div>
+                <div>
+                <label for="apellido">Primer Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required pattern="[A-ZÁÉÍÓÚa-záéíóú ]+">
+                </div>
+                <div>
+                <label for="correo">Correo electrónico:</label>
+                <input type="text" id="correo" name="correo" required pattern="[a-z]+@[outlook|hotmail|gmail|yahoo]\.[a-z]{1,3}">
+                </div>
+                <div>
+                <label for="número">Número de teléfono:</label>
+                <input type="text" id="número" name="número" required pattern="[0-9]{9}">
+                </div>
+                <div>
+                    <p>Género:</p>
+                    <input list="género" name="género">
+                    <datalist id="género">
+                        <option value="Masculino"></option>
+                        <option value="Femenino"></option>
+                        <option value="Prefiero no decirlo"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <p>Situación laboral:</p>
+                    <input list="trabajo" name="trabajo">
+                    <datalist id="trabajo">
+                        <option value="Trabajando"></option>
+                        <option value="Buscando trabajo"></option>
+                        <option value="Estudiando"></option>
+                        <option value="Ninguna de las anteriores"></option>
+                    </datalist><br>
+                </div>
+                <nav>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+                </nav>
+            </form>
+        </div>
+    </div>
+    <div class="tres" id="tercero">
+        <div class="enlaces3">
+            <nav>
+                <a href="#primero">Inicio</a>
+            </nav>
+                
+            <nav>
+                <a href="#segundo">Datos personales</a>
+            </nav>
+
+            <nav>
+                <a href="#tercero">Tus aficiones</a>
+            </nav>
+        </div>
+        <div class="formulario2">
+            <form action="/action_page.php">
+                <nav><h1>Aficiones</h1></nav>
+                <h2>¿Cuáles son tus aficiones?</h2><br>
+                <div>
+                    
+                    <input type="text" id="aficiones" name="aficiones" placeholder="Escribe tus aficiones...">
+                </div>
+                <h2>¿Cuáles son tus gustos?</h2><br>
+                <div>
+                    <input type="text" id="gustos" name="gustos" placeholder="Escribe tus gustos...">
+                </div>
+                <h2>¿Cuáles son tus sugerencias?</h2><br>
+                <div>
+                    <input type="text" id="sugerencias" name="sugerencias" placeholder="Escribe tus sugerencias...">
+                </div>
+                <nav>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+                </nav>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
