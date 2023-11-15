@@ -1,0 +1,31 @@
+header{
+    color: rgb(59, 237, 59);
+    font-size: 30px;
+}
+
+body p{
+    margin-left: 5px;
+}
+.horario{
+    display:flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(11, 172, 11) ;
+    height: 10vh;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 20px;
+    background-color:black;
+    color: white;
+}
+
+.contenido{
+    height:60vh;
+}
