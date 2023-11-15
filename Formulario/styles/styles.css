@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lora:ital@1&family=Pixelify+Sans&family=Tilt+Neon&display=swap');
+
+*{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+body{
+    overflow-y:hidden
+}
+
+.uno{
+    height:100vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(226, 210, 255, 0.218), rgba(231, 219, 251, 0.059)), url("https://rare-gallery.com/mocahbig/1377136-anime-boy-alone-night-scenery-4k-pc-wallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:#00B4D8;
+}
+
+.uno h3{
+    background-color: #03055e88;
+}
+
+.uno h2{
+    background-color: #03055e88
+}
+
+.uno h1{
+    background-color: #03055e88
+}
+
+.inicio{
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4%;
+    font-family: sans-serif;
+}
+
+.inicio h2{
+    font-size: 30px;
+}
+
+.dos{
+    height:100vh;
+    width: 99vw;
+    background-color: #10002B;
+    display: flex;
+    align-items: center;
+    
+}
+
+.tres{
+    height:100vh;
+    width: 99vw;
+    background-color: #004B23;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-size: 35px;
+}
+
+.enlaces{
+    height: 90vh;
+    width: 20vw;
+}
+
+.enlaces > nav{
+    height: 20vh;
+    width:18vw;
+    background-color: #03045E;
+    border-radius: 20px;
+    margin:17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlaces a{
+    color:#00B4D8;
+}
+
+.enlaces > nav:hover{
+    color: #023E8A;
+    background-color: #0077B6;
+    transform: scale(1.1);
+}
+
+.enlaces >nav :hover{
+    color: #023E8A;
+    background-color: #CAF0F8;
+    transform: scale(1.1);
+}
+
+.formulario1{
+    height: 100vh;
+    width: 75vw;
+    background-color: #240046;
+    margin-left: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario1 div{
+    height: 11vh;
+    width: 28vw;
+    background-color: #3C096C;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.formulario1 input{
+    background-color: #C77DFF;
+    height: 5vh;
+    width: 15vw;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.formulario1 input[type="submit"]
+{
+    background-color: #C77DFF;
+    height: 7vh;
+    width: 7vw;
+    border-radius: 20px;
+}
+
+.formulario1 input[type="reset"]
+{
+    background-color:  #C77DFF;
+    height: 7vh;
+    width: 7vw;
+    border-radius: 20px;
+}
+
+.formulario1 input[type="submit"]:hover{
+    color: #C77DFF;
+    background-color: #5A189A;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.formulario1 input[type="reset"]:hover{
+    color: #C77DFF;
+    background-color: #5A189A;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.formulario1 nav{
+    height: 11vh;
+    width: 28vw;
+    background-color: #240046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.enlaces2{
+    height: 90vh;
+    width: 20vw;
+}
+
+.enlaces2 > nav{
+    height: 20vh;
+    width:18vw;
+    background-color: #3C096C;
+    border-radius: 20px;
+    margin:17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.enlaces2 a{
+    color: #9D4EDD
+}
+
+.enlaces2 > nav:hover{
+    color: rgb(66, 146, 244);
+    background-color: #C77DFF;
+    transform: scale(1.1);
+}
+
+.enlaces2 >nav :hover{
+    color: #3C096C;
+    background-color: #5A189A;
+    transform: scale(1.1);
+}
+
+.formulario2{
+    height: 100vh;
+    width: 75vw;
+    background-color: #006400;
+    margin-left: 4%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario2 div{
+    height: 15vh;
+    width: 40vw;
+    background-color: #008000;
+    margin: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario2 input{
+    background-color: #70E000;
+    height: 13vh;
+    width: 37vw;
+    margin: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario2 input[type="submit"]
+{
+    background-color: #38B000;
+    height: 7vh;
+    width: 7vw;
+    border-radius: 20px;
+}
+
+.formulario2 input[type="reset"]
+{
+    background-color: #38B000;
+    height: 7vh;
+    width: 7vw;
+    border-radius: 20px;
+}
+
+.formulario2 input[type="submit"]:hover{
+    color: #007200;
+    background-color: #70E000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.formulario2 input[type="reset"]:hover{
+    color: #007200;
+    background-color: #70E000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.formulario2 nav{
+    height: 10vh;
+    width: 40vw;
+    background-color: #006400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.formulario2 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlaces3{
+    height: 90vh;
+    width: 20vw;
+}
+
+.enlaces3 > nav{
+    height: 20vh;
+    width:18vw;
+    background-color: #007200;
+    border-radius: 20px;
+    margin:17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.enlaces3 a{
+    color: #70E000;
+}
+
+.enlaces3 > nav:hover{
+    color: rgb(66, 146, 244);
+    background-color: #008000;
+    transform: scale(1.1);
+}
+
+.enlaces3 >nav :hover{
+    color: #006400;
+    background-color: #70E000;
+    transform: scale(1.1);
+}
